@@ -1,5 +1,5 @@
 class MiClase
-    def self.de_instancia
+    def de_instancia
         puts 'Método de instancia!'
     end
     def self.de_clase
@@ -7,5 +7,5 @@ class MiClase
     end
 end
 
-MiClase.de_instancia
+MiClase.new.de_instancia
 MiClase.de_clase
